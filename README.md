@@ -20,6 +20,6 @@ This is a simple static portfolio website for GitHub Pages.
 
 ## Things to edit
 
-- Replace the GitHub and LinkedIn placeholder links in `index.html`.
+- GitHub and LinkedIn links have been added to `index.html`.
 - Add real project images into the `images` folder.
 - Update project descriptions as your work changes.
