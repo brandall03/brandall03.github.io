@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Benjamin Randall | Computer Engineering Portfolio</title>
+  <meta name="description" content="Portfolio website for Benjamin Randall, Computer Engineering student focused on embedded systems, firmware, FPGA design, and hardware-software integration." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="#home">
+        <span class="brand-mark">BR</span>
+        <span>
+          <span class="brand-name">Benjamin Randall</span>
+          <span class="brand-subtitle">Computer Engineering</span>
+        </span>
+      </a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact" class="nav-button">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">Embedded systems • Firmware • Real-time control</p>
+        <h1>Building practical hardware and software systems that work in the real world.</h1>
+        <p class="hero-text">
+          I am a Computer Engineering student focused on embedded systems, digital logic, firmware,
+          and hardware-software integration. My work includes FPGA design, microcontroller control
+          systems, sensor networks, and engineering prototypes.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#projects">View Projects</a>
+          <a class="secondary-button" href="resume.pdf" target="_blank" rel="noopener">View Resume</a>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+        <p class="card-label">Portfolio Focus</p>
+        <h2>Embedded Computer Engineering</h2>
+        <p>
+          Real-time control, firmware, FPGA logic, sensor integration, and prototype development.
+        </p>
+        <div class="stat-grid">
+          <div>
+            <span class="stat-title">Firmware</span>
+            <span class="stat-text">C, RTOS, microcontrollers</span>
+          </div>
+          <div>
+            <span class="stat-title">Hardware</span>
+            <span class="stat-text">FPGA, sensors, test tools</span>
+          </div>
+          <div>
+            <span class="stat-title">Education</span>
+            <span class="stat-text">B.S. Computer Engineering</span>
+          </div>
+          <div>
+            <span class="stat-title">Experience</span>
+            <span class="stat-text">IT intern and club leadership</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="about" class="section two-column">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>Engineering background with hands-on project experience.</h2>
+      </div>
+      <div class="text-block">
+        <p>
+          I work at the intersection of firmware, electronics, and system prototyping. I enjoy taking
+          ideas from a rough circuit or mechanical concept to a working tested system, especially when
+          microcontrollers, sensors, real-time logic, or FPGA design are involved.
+        </p>
+        <p>
+          I am pursuing a Bachelor of Science in Computer Engineering with a concentration in
+          Cybersecurity at the University of Massachusetts Dartmouth, with an expected graduation date
+          of May 2026.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section light-section">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>Technical skills and engineering tools.</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>Programming</h3>
+          <p>C, MATLAB, SQL, HTML, VHDL, Python</p>
+        </article>
+        <article class="skill-card">
+          <h3>Embedded and Digital</h3>
+          <p>RTOS concepts, microcontrollers, FPGA design, digital logic, real-time control</p>
+        </article>
+        <article class="skill-card">
+          <h3>Engineering Tools</h3>
+          <p>Oscilloscopes, multimeters, logic analyzers, SolidWorks, Linux OS, Vivado</p>
+        </article>
+        <article class="skill-card">
+          <h3>Professional</h3>
+          <p>Problem-solving, teamwork, communication, adaptability, technical leadership</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected engineering projects.</h2>
+        <p>
+          These projects show embedded firmware, FPGA logic, real-time control, networking, and
+          hardware-software integration.
+        </p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-image placeholder">FPGA</div>
+          <p class="project-category">Digital Design</p>
+          <h3>FPGA Digital Clock with Alarm</h3>
+          <p class="project-subtitle">Nexys A7 • VHDL • Vivado</p>
+          <p>
+            Designed an HH:MM:SS digital clock with AM/PM indication, alarm trigger, debounced set/reset
+            controls, and seven-segment display output.
+          </p>
+          <ul>
+            <li>VHDL timekeeping logic</li>
+            <li>Alarm control logic</li>
+            <li>Seven-segment display multiplexing</li>
+            <li>Timing verification in Vivado</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image placeholder">Solar</div>
+          <p class="project-category">Embedded Systems</p>
+          <h3>Solar Tracker System</h3>
+          <p class="project-subtitle">ATmega Microcontroller • Servo Control</p>
+          <p>
+            Built a light-angle tracking system using a photoresistor array and servo actuation to align
+            a solar panel toward peak illumination.
+          </p>
+          <ul>
+            <li>ATmega firmware</li>
+            <li>Photoresistor sensing</li>
+            <li>Servo PWM control</li>
+            <li>Closed-loop tracking behavior</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image placeholder">IoT</div>
+          <p class="project-category">IoT Networking</p>
+          <h3>Networking Sensor Node</h3>
+          <p class="project-subtitle">ESP32 • ESP8266 • Wi-Fi AP/Client</p>
+          <p>
+            Configured ESP-based AP/client communication using DHCP, TCP/UDP messaging, and a
+            server-client model for real-time sensor data and acknowledgments.
+          </p>
+          <ul>
+            <li>ESP Wi-Fi networking</li>
+            <li>TCP/UDP handshake</li>
+            <li>DHCP configuration</li>
+            <li>Sensor data transfer</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image placeholder">FR</div>
+          <p class="project-category">Capstone Project</p>
+          <h3>Filament Recycler</h3>
+          <p class="project-subtitle">Senior Design • Controls • Hardware Integration</p>
+          <p>
+            Developed control and hardware integration concepts for a filament recycling system that
+            converts waste 3D prints into reusable filament.
+          </p>
+          <ul>
+            <li>Stepper motor control</li>
+            <li>Sensor integration</li>
+            <li>Mechanical prototyping</li>
+            <li>System testing</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section light-section">
+      <div class="section-heading">
+        <p class="eyebrow">Experience</p>
+        <h2>Professional and leadership experience.</h2>
+      </div>
+
+      <div class="experience-card">
+        <div class="experience-header">
+          <div>
+            <h3>IT Intern</h3>
+            <p>Diesel Direct</p>
+          </div>
+          <span>June 2021 - Present</span>
+        </div>
+        <ul>
+          <li>Handled incoming caller problems efficiently, ensuring minimal downtime for users and systems.</li>
+          <li>Assisted in expanding and organizing the company knowledge base to improve issue resolution time.</li>
+          <li>Organized, cataloged, and updated hardware and software inventory to support smoother technology deployment.</li>
+        </ul>
+      </div>
+
+      <div class="leadership-card">
+        <h3>Leadership</h3>
+        <p>
+          Active in IEEE Student Branch events, technical workshops, and engineering project collaboration.
+          Experienced in communicating technical ideas to both technical and non-technical stakeholders.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s build something useful.</h2>
+        <p>
+          Reach out for embedded systems, firmware, hardware prototyping, FPGA design, or junior engineering opportunities.
+        </p>
+      </div>
+
+      <div class="contact-card">
+        <a href="mailto:bfrandall03@gmail.com">bfrandall03@gmail.com</a>
+        <a href="mailto:brandall@umassd.edu">brandall@umassd.edu</a>
+        <a href="tel:17819291556">781-929-1556</a>
+        <a href="https://github.com/brandall03" class="profile-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/ben-randall-8b64b1244/" class="profile-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Benjamin Randall. Built for GitHub Pages.</p>
+  </footer>
+</body>
+</html>
